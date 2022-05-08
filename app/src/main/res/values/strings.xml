@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Dákó</string>
+    <string name="name">Felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="email_address">E-mail cím</string>
+    <string name="password_again">Jelszó megerősítése</string>
+    <string name="cancel">Mégse</string>
+    <string name="phone_number">Telefonszám</string>
+    <string name="monday">Hétfő</string>
+    <string name="one">13:00</string>
+    <string name="two">14:00</string>
+    <string name="three">15:00</string>
+    <string name="four">16:00</string>
+    <string name="five">17:00</string>
+    <string name="six">18:00</string>
+    <string name="seven">19:00</string>
+    <string name="eight">20:00</string>
+    <string name="nine">21:00</string>
+    <string name="ten">22:00</string>
+    <string name="eleven">23:00</string>
+    <string name="tuesday">Kedd</string>
+    <string name="signinwithgoogle">Bejelentkezés Google-fiókkal</string>
+    <string name="e_mail">E-mail</string>
+
+</resources>

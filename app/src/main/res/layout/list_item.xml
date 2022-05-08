@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+
+    >
+        <TextView
+            android:id="@+id/hetfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/monday"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/htizenharom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one"
+            android:layout_below="@+id/hetfo"
+            />
+
+        <Button
+            android:id="@+id/plusButtonOne"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/htizenharom"
+            />
+
+
+        <TextView
+            android:id="@+id/htizennegy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two"
+            android:layout_below="@+id/plusButtonOne"
+            />
+
+        <Button
+            android:id="@+id/plusButtonTwo"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/htizennegy"
+            />
+
+        <TextView
+            android:id="@+id/htizenot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/three"
+            android:layout_below="@+id/plusButtonTwo"
+            />
+
+        <Button
+            android:id="@+id/plusButtonThree"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/htizenot"
+            />
+
+        <TextView
+            android:id="@+id/htizenhat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/plusButtonThree"
+            android:text="@string/four" />
+
+        <Button
+            android:id="@+id/plusButtonFour"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/htizenhat"
+            />
+
+
+        <TextView
+            android:id="@+id/htizenhet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/five"
+            android:layout_below="@+id/plusButtonFour"
+            />
+
+        <Button
+            android:id="@+id/plusButtonFive"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/htizenhet"
+            />
+
+        <TextView
+            android:id="@+id/htizennyolc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/six"
+            android:layout_below="@+id/plusButtonFive"
+            />
+
+        <Button
+            android:id="@+id/plusButtonSix"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/htizennyolc"
+            />
+
+        <TextView
+            android:id="@+id/htizenkilenc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seven"
+            android:layout_below="@+id/plusButtonSix"
+            />
+
+        <Button
+            android:id="@+id/plusButtonSeven"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/htizenkilenc"
+            />
+
+        <TextView
+            android:id="@+id/hhusz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eight"
+            android:layout_below="@+id/plusButtonSeven"
+            />
+
+        <Button
+            android:id="@+id/plusButtonEight"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/hhusz"
+            />
+
+        <TextView
+            android:id="@+id/hhuszonegy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nine"
+            android:layout_below="@+id/plusButtonEight"
+            />
+
+        <Button
+            android:id="@+id/plusButtonNine"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/hhuszonegy"
+            />
+
+        <TextView
+            android:id="@+id/hhuszonketto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ten"
+            android:layout_below="@+id/plusButtonNine"
+            />
+
+        <Button
+            android:id="@+id/plusButtonTen"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/hhuszonketto"
+            />
+
+        <TextView
+            android:id="@+id/hhuszonharom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eleven"
+            android:layout_below="@+id/plusButtonTen"
+            />
+
+        <Button
+            android:id="@+id/plusButtonEleven"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/hhuszonharom"
+            />
+
+
+
+
+    <TextView
+        android:id="@+id/kedd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tuesday"
+        android:textSize="20sp"
+        android:layout_marginStart="70dp"
+        />
+
+    <TextView
+        android:id="@+id/ktizenharom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kedd"
+        android:layout_marginStart="70dp"
+        android:text="@string/one" />
+
+    <Button
+        android:id="@+id/plusButtonkOne"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/htizenharom"
+        android:layout_marginStart="70dp"
+        />
+
+
+    <TextView
+        android:id="@+id/ktizennegy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plusButtonOne"
+        android:layout_marginStart="70dp"
+        android:text="@string/two" />
+
+    <Button
+        android:id="@+id/plusButtonkTwo"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/ktizennegy"
+        android:layout_marginStart="70dp"
+        />
+
+    <TextView
+        android:id="@+id/ktizenot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/three"
+        android:layout_below="@+id/plusButtonkTwo"
+        android:layout_marginStart="70dp"
+        />
+
+    <Button
+        android:id="@+id/plusButtonkThree"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/ktizenot"
+        android:layout_marginStart="70dp"
+        />
+
+    <TextView
+        android:id="@+id/ktizenhat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plusButtonkThree"
+        android:text="@string/four"
+        android:layout_marginStart="70dp"/>
+
+    <Button
+        android:id="@+id/plusButtonkFour"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/ktizenhat"
+        android:layout_marginStart="70dp"
+        />
+
+
+    <TextView
+        android:id="@+id/ktizenhet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/five"
+        android:layout_below="@+id/plusButtonkFour"
+        android:layout_marginStart="70dp"
+        />
+
+    <Button
+        android:id="@+id/plusButtonkFive"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/ktizenhet"
+        android:layout_marginStart="70dp"
+        />
+
+    <TextView
+        android:id="@+id/ktizennyolc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/six"
+        android:layout_below="@+id/plusButtonkFive"
+        android:layout_marginStart="70dp"
+        />
+
+    <Button
+        android:id="@+id/plusButtonkSix"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/ktizennyolc"
+        android:layout_marginStart="70dp"
+        />
+
+    <TextView
+        android:id="@+id/ktizenkilenc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seven"
+        android:layout_below="@+id/plusButtonkSix"
+        android:layout_marginStart="70dp"
+        />
+
+    <Button
+        android:id="@+id/plusButtonkSeven"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/ktizenkilenc"
+        android:layout_marginStart="70dp"
+        />
+
+    <TextView
+        android:id="@+id/khusz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eight"
+        android:layout_below="@+id/plusButtonkSeven"
+        android:layout_marginStart="70dp"
+        />
+
+    <Button
+        android:id="@+id/plusButtonkEight"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/khusz"
+        android:layout_marginStart="70dp"
+        />
+
+    <TextView
+        android:id="@+id/khuszonegy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nine"
+        android:layout_below="@+id/plusButtonkEight"
+        android:layout_marginStart="70dp"
+        />
+
+    <Button
+        android:id="@+id/plusButtonkNine"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/khuszonegy"
+        android:layout_marginStart="70dp"
+        />
+
+    <TextView
+        android:id="@+id/khuszonketto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ten"
+        android:layout_below="@+id/plusButtonkNine"
+        android:layout_marginStart="70dp"
+        />
+
+    <Button
+        android:id="@+id/plusButtonkTen"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/khuszonketto"
+        android:layout_marginStart="70dp"
+        />
+
+    <TextView
+        android:id="@+id/khuszonharom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plusButtonkTen"
+        android:layout_marginStart="70dp"
+        android:text="@string/eleven" />
+
+    <Button
+        android:id="@+id/plusButtonkEleven"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/khuszonharom"
+        android:layout_marginStart="70dp"
+        />
+</RelativeLayout>

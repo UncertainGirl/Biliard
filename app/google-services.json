@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "338209284207",
+    "project_id": "androidbilliard",
+    "storage_bucket": "androidbilliard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338209284207:android:64dd45a617d185dafb2d9a",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338209284207-51hsu2s1l4fn7fbnebe0safgu4uspk2v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "0bf0c7cc2484bf21d54ee2cbaead50de48b68c05"
+          }
+        },
+        {
+          "client_id": "338209284207-ahfeku3hi6urihta98oet7iq4tn6dvc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA50RgC99GHIaYjJakioXlxo89qPo62wHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338209284207-ahfeku3hi6urihta98oet7iq4tn6dvc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
